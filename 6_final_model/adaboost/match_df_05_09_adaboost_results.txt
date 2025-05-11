@@ -1,0 +1,13 @@
+Dataset: match_df_05_09
+Best n_estimators value: 50
+Accuracy: 0.7033
+AUC: 0.7652
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.70      0.68      0.69      1284
+           1       0.70      0.72      0.71      1335
+
+    accuracy                           0.70      2619
+   macro avg       0.70      0.70      0.70      2619
+weighted avg       0.70      0.70      0.70      2619

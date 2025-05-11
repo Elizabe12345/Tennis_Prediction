@@ -1,0 +1,81 @@
+Dataset: match_df_15_19_symmetry
+Best C value: 3.593813663804626
+Accuracy: 0.6832
+AUC: 0.7437
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.68      0.69      0.68      1345
+           1       0.68      0.68      0.68      1338
+
+    accuracy                           0.68      2683
+   macro avg       0.68      0.68      0.68      2683
+weighted avg       0.68      0.68      0.68      2683
+
+Feature Importance:
+sym_fstWon_hist_e: 0.612924
+sym_bpFaced_hist: 0.452183
+sym_rank_points: 0.443826
+sym_baseline_rally_hist: 0.423435
+sym_svpt_hist_e: 0.415678
+sym_age: 0.284545
+sym_intensity_hist: 0.252114
+sym_rank: 0.249523
+sym_fstWon_hist: 0.244916
+sym_elo: 0.244353
+sym_o_rank_points_histo: 0.227611
+sym_serve_win_rate_hist: 0.223302
+sym_o_svpt_histo: 0.216770
+sym_bpFaced_hist_e: 0.198356
+sym_baseline_rally_hist_e: 0.193656
+sym_bpSaved_hist: 0.193223
+sym_SvGms_hist: 0.174117
+sym_o_fstWon_histo: 0.154753
+sym_df_hist: 0.153888
+sym_fstIn_hist_e: 0.140425
+sym_entry: 0.126291
+sym_o_fstIn_histo: 0.124568
+sym_bpSaved_hist_e: 0.116345
+sym_sndWon_hist_e: 0.115721
+sym_SvGms_hist_e: 0.113049
+sym_sndWon_hist: 0.111867
+sym_o_SvGms_histo: 0.111836
+sym_o_serve_win_rate_histo: 0.108863
+sym_o_ace_rate_histo: 0.101107
+sym_o_bpSaved_histo: 0.095420
+sym_o_seed_bucket_histo: 0.083647
+sym_o_df_histo: 0.082649
+sym_fstIn_hist: 0.077658
+sym_o_ace_histo: 0.076910
+sym_df_rate_hist: 0.076295
+sym_o_rank_histo: 0.071956
+best_of: 0.058740
+sym_o_ht_histo: 0.056382
+sym_df_rate_hist_e: 0.055898
+sym_o_df_rate_histo: 0.045767
+sym_o_hand_histo: 0.043332
+sym_serve_efficiency_hist_e: 0.042412
+round_code: 0.040867
+sym_intensity_hist_e: 0.035243
+sym_ace_hist: 0.034099
+sym_o_entry_histo: 0.027982
+sym_o_sndWon_histo: 0.026351
+sym_ht: 0.023974
+sym_clutch_ability_hist_e: 0.023894
+sym_hand: 0.023045
+sym_host: 0.021935
+sym_o_clutch_ability_histo: 0.021301
+sym_o_elo_histo: 0.019587
+sym_serve_efficiency_hist: 0.016270
+sym_o_age_histo: 0.014427
+sym_svpt_hist: 0.013703
+sym_o_serve_efficiency_histo: 0.010369
+sym_seed_bucket: 0.009930
+sym_o_bpFaced_histo: 0.008785
+sym_df_hist_e: 0.008398
+sym_o_host_histo: 0.007240
+sym_clutch_ability_hist: 0.006293
+sym_ace_rate_hist_e: 0.006281
+sym_ace_rate_hist: 0.005356
+sym_ace_hist_e: 0.001653
+sym_serve_win_rate_hist_e: 0.001082

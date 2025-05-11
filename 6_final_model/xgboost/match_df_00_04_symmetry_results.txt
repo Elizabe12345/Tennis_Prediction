@@ -1,0 +1,80 @@
+Dataset: match_df_00_04_symmetry
+Accuracy: 0.6571
+AUC: 0.7220
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.66      0.67      0.66      1417
+           1       0.65      0.65      0.65      1377
+
+    accuracy                           0.66      2794
+   macro avg       0.66      0.66      0.66      2794
+weighted avg       0.66      0.66      0.66      2794
+
+Feature Importance:
+sym_rank_points: 0.068250
+sym_rank: 0.035000
+sym_elo: 0.032385
+sym_o_rank_points_histo: 0.025282
+sym_o_elo_histo: 0.023366
+sym_serve_win_rate_hist: 0.020320
+round_code: 0.018325
+best_of: 0.017576
+sym_o_rank_histo: 0.017152
+sym_serve_win_rate_hist_e: 0.016382
+sym_serve_efficiency_hist: 0.016170
+sym_age: 0.015911
+sym_SvGms_hist: 0.014757
+sym_bpFaced_hist: 0.014752
+sym_entry: 0.014555
+sym_o_serve_win_rate_histo: 0.014176
+sym_o_svpt_histo: 0.014070
+sym_baseline_rally_hist_e: 0.013816
+sym_o_SvGms_histo: 0.013770
+sym_o_ace_rate_histo: 0.013689
+sym_bpSaved_hist_e: 0.013658
+sym_intensity_hist: 0.013653
+sym_bpFaced_hist_e: 0.013427
+sym_clutch_ability_hist_e: 0.013424
+sym_intensity_hist_e: 0.013373
+sym_o_seed_bucket_histo: 0.013329
+sym_fstIn_hist_e: 0.013321
+sym_clutch_ability_hist: 0.013321
+sym_df_hist_e: 0.013293
+sym_df_hist: 0.013249
+sym_df_rate_hist_e: 0.013235
+sym_o_fstWon_histo: 0.013204
+sym_o_fstIn_histo: 0.013033
+sym_sndWon_hist_e: 0.012946
+sym_o_sndWon_histo: 0.012892
+sym_o_host_histo: 0.012843
+sym_o_bpFaced_histo: 0.012799
+sym_serve_efficiency_hist_e: 0.012769
+sym_o_df_histo: 0.012768
+sym_o_clutch_ability_histo: 0.012747
+sym_SvGms_hist_e: 0.012732
+sym_ace_rate_hist: 0.012711
+sym_svpt_hist: 0.012659
+sym_o_ht_histo: 0.012621
+sym_ace_hist_e: 0.012589
+sym_ht: 0.012580
+sym_df_rate_hist: 0.012522
+sym_fstWon_hist: 0.012503
+sym_o_entry_histo: 0.012502
+sym_seed_bucket: 0.012409
+sym_o_serve_efficiency_histo: 0.012401
+sym_bpSaved_hist: 0.012374
+sym_baseline_rally_hist: 0.012268
+sym_fstIn_hist: 0.012240
+sym_o_age_histo: 0.012228
+sym_svpt_hist_e: 0.012222
+sym_ace_rate_hist_e: 0.012184
+sym_o_hand_histo: 0.012164
+sym_sndWon_hist: 0.012150
+sym_o_bpSaved_histo: 0.012099
+sym_host: 0.011760
+sym_fstWon_hist_e: 0.011698
+sym_o_ace_histo: 0.011644
+sym_o_df_rate_histo: 0.011482
+sym_ace_hist: 0.011318
+sym_hand: 0.010951

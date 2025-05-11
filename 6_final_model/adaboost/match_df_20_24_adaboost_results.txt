@@ -1,0 +1,13 @@
+Dataset: match_df_20_24
+Best n_estimators value: 300
+Accuracy: 0.6382
+AUC: 0.6954
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.64      0.64      0.64      1467
+           1       0.63      0.63      0.63      1424
+
+    accuracy                           0.64      2891
+   macro avg       0.64      0.64      0.64      2891
+weighted avg       0.64      0.64      0.64      2891

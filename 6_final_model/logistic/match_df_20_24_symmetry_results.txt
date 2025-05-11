@@ -1,0 +1,81 @@
+Dataset: match_df_20_24_symmetry
+Best C value: 3.593813663804626
+Accuracy: 0.6688
+AUC: 0.7291
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.67      0.68      0.68      1237
+           1       0.67      0.66      0.66      1209
+
+    accuracy                           0.67      2446
+   macro avg       0.67      0.67      0.67      2446
+weighted avg       0.67      0.67      0.67      2446
+
+Feature Importance:
+sym_baseline_rally_hist_e: 1.000177
+sym_baseline_rally_hist: 0.988978
+sym_fstWon_hist: 0.424952
+sym_age: 0.407294
+sym_svpt_hist: 0.353723
+sym_rank_points: 0.337714
+sym_bpFaced_hist: 0.324677
+sym_rank: 0.274281
+sym_bpFaced_hist_e: 0.246213
+sym_serve_win_rate_hist: 0.243490
+sym_serve_win_rate_hist_e: 0.234331
+sym_ace_rate_hist: 0.228028
+sym_elo: 0.216374
+sym_ace_hist: 0.191262
+sym_o_rank_points_histo: 0.184612
+sym_o_SvGms_histo: 0.182197
+sym_o_fstIn_histo: 0.173860
+sym_entry: 0.168098
+sym_o_serve_win_rate_histo: 0.167134
+sym_intensity_hist: 0.157548
+sym_bpSaved_hist_e: 0.153648
+sym_sndWon_hist: 0.142013
+sym_fstIn_hist: 0.130421
+sym_df_hist_e: 0.112174
+sym_o_ace_histo: 0.111234
+sym_o_ace_rate_histo: 0.109856
+sym_sndWon_hist_e: 0.107275
+sym_ace_hist_e: 0.106495
+sym_ace_rate_hist_e: 0.096148
+sym_o_elo_histo: 0.094965
+sym_o_ht_histo: 0.092625
+sym_o_fstWon_histo: 0.091780
+sym_SvGms_hist: 0.087479
+sym_svpt_hist_e: 0.086406
+sym_bpSaved_hist: 0.080069
+sym_o_bpSaved_histo: 0.078496
+sym_fstIn_hist_e: 0.067727
+sym_o_rank_histo: 0.064478
+sym_o_entry_histo: 0.053009
+best_of: 0.051490
+sym_o_age_histo: 0.046465
+sym_SvGms_hist_e: 0.045475
+sym_o_clutch_ability_histo: 0.041228
+sym_o_df_histo: 0.038771
+sym_o_bpFaced_histo: 0.036495
+sym_ht: 0.034557
+sym_o_svpt_histo: 0.033641
+sym_o_serve_efficiency_histo: 0.030955
+sym_df_rate_hist: 0.029338
+sym_serve_efficiency_hist: 0.028753
+sym_o_seed_bucket_histo: 0.028685
+sym_fstWon_hist_e: 0.025636
+sym_clutch_ability_hist: 0.022284
+sym_df_rate_hist_e: 0.021067
+sym_hand: 0.018419
+sym_host: 0.014130
+sym_serve_efficiency_hist_e: 0.013426
+round_code: 0.013385
+sym_o_hand_histo: 0.013380
+sym_df_hist: 0.012777
+sym_clutch_ability_hist_e: 0.011702
+sym_o_df_rate_histo: 0.010737
+sym_o_host_histo: 0.007483
+sym_seed_bucket: 0.007374
+sym_o_sndWon_histo: 0.006584
+sym_intensity_hist_e: 0.002043

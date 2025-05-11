@@ -1,0 +1,80 @@
+Dataset: match_df_10_14_symmetry
+Accuracy: 0.7016
+AUC: 0.7651
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.70      0.70      0.70      1275
+           1       0.70      0.70      0.70      1279
+
+    accuracy                           0.70      2554
+   macro avg       0.70      0.70      0.70      2554
+weighted avg       0.70      0.70      0.70      2554
+
+Feature Importance:
+sym_rank_points: 0.115814
+sym_rank: 0.029011
+sym_o_rank_histo: 0.022574
+sym_o_rank_points_histo: 0.022431
+best_of: 0.021978
+sym_serve_win_rate_hist: 0.020919
+sym_elo: 0.020719
+sym_o_elo_histo: 0.016241
+round_code: 0.016223
+sym_serve_win_rate_hist_e: 0.016095
+sym_baseline_rally_hist_e: 0.015866
+sym_entry: 0.014478
+sym_age: 0.014443
+sym_host: 0.014330
+sym_fstWon_hist_e: 0.013932
+sym_SvGms_hist: 0.013886
+sym_o_bpSaved_histo: 0.013760
+sym_bpFaced_hist: 0.013755
+sym_o_bpFaced_histo: 0.013685
+sym_o_seed_bucket_histo: 0.013368
+sym_fstWon_hist: 0.013306
+sym_ace_rate_hist: 0.013276
+sym_o_serve_efficiency_histo: 0.013116
+sym_ace_rate_hist_e: 0.013063
+sym_SvGms_hist_e: 0.012883
+sym_o_SvGms_histo: 0.012751
+sym_ace_hist: 0.012683
+sym_o_svpt_histo: 0.012676
+sym_o_serve_win_rate_histo: 0.012598
+sym_o_hand_histo: 0.012589
+sym_serve_efficiency_hist: 0.012476
+sym_o_ht_histo: 0.012424
+sym_clutch_ability_hist_e: 0.012379
+sym_o_fstWon_histo: 0.012326
+sym_o_host_histo: 0.012271
+sym_svpt_hist_e: 0.012215
+sym_o_sndWon_histo: 0.012183
+sym_o_entry_histo: 0.012182
+sym_clutch_ability_hist: 0.012180
+sym_intensity_hist: 0.012163
+sym_df_hist: 0.012141
+sym_fstIn_hist: 0.012134
+sym_df_hist_e: 0.012116
+sym_o_ace_rate_histo: 0.012110
+sym_hand: 0.012090
+sym_seed_bucket: 0.012086
+sym_o_df_rate_histo: 0.011997
+sym_bpFaced_hist_e: 0.011986
+sym_o_fstIn_histo: 0.011979
+sym_df_rate_hist: 0.011978
+sym_ht: 0.011943
+sym_o_df_histo: 0.011936
+sym_intensity_hist_e: 0.011913
+sym_df_rate_hist_e: 0.011913
+sym_bpSaved_hist: 0.011901
+sym_ace_hist_e: 0.011788
+sym_sndWon_hist: 0.011756
+sym_serve_efficiency_hist_e: 0.011617
+sym_o_age_histo: 0.011467
+sym_bpSaved_hist_e: 0.011444
+sym_o_clutch_ability_histo: 0.011399
+sym_svpt_hist: 0.011326
+sym_fstIn_hist_e: 0.011288
+sym_baseline_rally_hist: 0.010960
+sym_sndWon_hist_e: 0.010854
+sym_o_ace_histo: 0.010627

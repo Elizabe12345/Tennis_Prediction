@@ -1,0 +1,80 @@
+Dataset: match_df_00_04_symmetry
+Accuracy: 0.6485
+AUC: 0.7127
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.67      0.62      0.64      1417
+           1       0.63      0.68      0.66      1377
+
+    accuracy                           0.65      2794
+   macro avg       0.65      0.65      0.65      2794
+weighted avg       0.65      0.65      0.65      2794
+
+Feature Importance:
+sym_elo: 0.0470
+sym_rank_points: 0.0366
+sym_o_elo_histo: 0.0245
+sym_age: 0.0239
+sym_baseline_rally_hist_e: 0.0224
+sym_serve_win_rate_hist: 0.0206
+sym_bpFaced_hist_e: 0.0173
+sym_seed_bucket: 0.0170
+round_code: 0.0158
+sym_intensity_hist: 0.0136
+sym_o_rank_points_histo: 0.0135
+sym_intensity_hist_e: 0.0133
+sym_serve_win_rate_hist_e: 0.0125
+sym_bpSaved_hist_e: 0.0120
+sym_bpFaced_hist: 0.0119
+sym_clutch_ability_hist_e: 0.0119
+sym_rank: 0.0117
+sym_entry: 0.0115
+sym_fstIn_hist_e: 0.0112
+sym_o_seed_bucket_histo: 0.0105
+sym_serve_efficiency_hist_e: 0.0098
+sym_sndWon_hist_e: 0.0093
+sym_o_df_histo: 0.0091
+sym_baseline_rally_hist: 0.0090
+sym_o_age_histo: 0.0087
+sym_o_rank_histo: 0.0083
+sym_fstWon_hist: 0.0081
+sym_o_bpSaved_histo: 0.0076
+sym_ace_hist_e: 0.0074
+sym_df_hist: 0.0071
+sym_clutch_ability_hist: 0.0068
+sym_o_serve_win_rate_histo: 0.0066
+sym_sndWon_hist: 0.0062
+sym_host: 0.0062
+sym_o_fstIn_histo: 0.0057
+sym_ht: 0.0055
+sym_o_bpFaced_histo: 0.0050
+sym_o_ht_histo: 0.0049
+sym_fstIn_hist: 0.0048
+sym_o_entry_histo: 0.0047
+sym_ace_rate_hist: 0.0046
+sym_ace_hist: 0.0045
+best_of: 0.0045
+sym_df_hist_e: 0.0039
+sym_o_clutch_ability_histo: 0.0039
+sym_serve_efficiency_hist: 0.0038
+sym_o_df_rate_histo: 0.0037
+sym_o_fstWon_histo: 0.0037
+sym_o_sndWon_histo: 0.0036
+sym_o_hand_histo: 0.0035
+sym_o_ace_histo: 0.0035
+sym_SvGms_hist_e: 0.0035
+sym_o_ace_rate_histo: 0.0033
+sym_o_SvGms_histo: 0.0033
+sym_o_serve_efficiency_histo: 0.0032
+sym_df_rate_hist: 0.0031
+sym_svpt_hist: 0.0030
+sym_fstWon_hist_e: 0.0028
+sym_ace_rate_hist_e: 0.0028
+sym_o_host_histo: 0.0028
+sym_svpt_hist_e: 0.0028
+sym_hand: 0.0028
+sym_df_rate_hist_e: 0.0027
+sym_SvGms_hist: 0.0027
+sym_o_svpt_histo: 0.0023
+sym_bpSaved_hist: 0.0023

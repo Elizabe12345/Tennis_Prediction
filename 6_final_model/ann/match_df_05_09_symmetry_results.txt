@@ -1,0 +1,80 @@
+Dataset: match_df_05_09_symmetry
+Accuracy: 0.6865
+AUC: 0.7664
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.67      0.76      0.71      1393
+           1       0.71      0.61      0.65      1331
+
+    accuracy                           0.69      2724
+   macro avg       0.69      0.68      0.68      2724
+weighted avg       0.69      0.69      0.68      2724
+
+Feature Importance:
+sym_age: 0.0615
+sym_elo: 0.0601
+sym_rank_points: 0.0443
+sym_baseline_rally_hist_e: 0.0373
+sym_o_elo_histo: 0.0315
+sym_rank: 0.0277
+sym_entry: 0.0186
+sym_clutch_ability_hist: 0.0179
+sym_o_rank_points_histo: 0.0170
+sym_bpFaced_hist: 0.0144
+sym_serve_win_rate_hist: 0.0142
+sym_o_serve_efficiency_histo: 0.0125
+sym_serve_efficiency_hist: 0.0123
+sym_intensity_hist_e: 0.0116
+sym_o_age_histo: 0.0109
+sym_o_bpFaced_histo: 0.0109
+sym_df_rate_hist: 0.0100
+sym_o_rank_histo: 0.0099
+sym_o_ht_histo: 0.0098
+sym_df_hist_e: 0.0094
+sym_o_seed_bucket_histo: 0.0086
+sym_o_sndWon_histo: 0.0086
+sym_ace_rate_hist_e: 0.0081
+sym_ace_rate_hist: 0.0079
+sym_sndWon_hist: 0.0077
+round_code: 0.0075
+sym_o_bpSaved_histo: 0.0074
+sym_seed_bucket: 0.0069
+sym_fstWon_hist: 0.0060
+sym_o_SvGms_histo: 0.0060
+sym_host: 0.0058
+sym_bpSaved_hist_e: 0.0055
+best_of: 0.0055
+sym_o_df_histo: 0.0050
+sym_SvGms_hist: 0.0049
+sym_sndWon_hist_e: 0.0049
+sym_svpt_hist: 0.0048
+sym_clutch_ability_hist_e: 0.0047
+sym_o_hand_histo: 0.0046
+sym_serve_win_rate_hist_e: 0.0046
+sym_o_clutch_ability_histo: 0.0046
+sym_baseline_rally_hist: 0.0046
+sym_bpSaved_hist: 0.0045
+sym_fstIn_hist_e: 0.0043
+sym_fstIn_hist: 0.0043
+sym_intensity_hist: 0.0042
+sym_o_ace_rate_histo: 0.0041
+sym_ace_hist_e: 0.0035
+sym_ace_hist: 0.0035
+sym_o_serve_win_rate_histo: 0.0029
+sym_bpFaced_hist_e: 0.0029
+sym_df_rate_hist_e: 0.0020
+sym_serve_efficiency_hist_e: 0.0018
+sym_o_fstWon_histo: 0.0017
+sym_o_host_histo: 0.0016
+sym_o_df_rate_histo: 0.0016
+sym_df_hist: 0.0016
+sym_o_ace_histo: 0.0015
+sym_o_entry_histo: 0.0015
+sym_hand: 0.0012
+sym_SvGms_hist_e: 0.0012
+sym_svpt_hist_e: 0.0012
+sym_o_svpt_histo: 0.0011
+sym_fstWon_hist_e: 0.0011
+sym_ht: 0.0010
+sym_o_fstIn_histo: 0.0008
